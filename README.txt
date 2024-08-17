@@ -1,0 +1,2 @@
+##Rock-Paper-Scissors Game
+For this project i used problem solving frameworks to complete, i defined the problem, understood it, created an algorithm then wrote some psuedocode down in my notebook. This project was by far the most challenging one i've done so far but in a way the most mentally rewarding because i solved every problem i encountered without AI help and I still ended up liking the UI even though its very bland, overall I learned a lot about critical thinking and the problem solving mindset from this one :)
