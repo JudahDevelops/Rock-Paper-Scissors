@@ -1,0 +1,81 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: #a83f3f;
+    --border: solid 7px #a83f3f;
+}
+
+main {
+    margin: auto;
+    text-align: center;
+    width: fit-content;
+}
+
+h1 {
+    border: var(--border);
+    width: fit-content;
+    margin: auto;
+    padding: 10px;
+    border-radius: 30px;
+    font-style: italic;
+}
+
+#scoreboard {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 19px;
+}
+
+#scoreboard div {
+    width: 50%;
+    border: var(--border);
+    border-radius: 30px;
+    font-weight: bold;
+    padding: 7px;
+    text-align: center;
+    font-style: italic;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 19px;
+}
+
+button {
+    padding: 13px 1px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 110px;
+    text-align: center;
+    border: var(--border);
+    background-color: white;;
+    font-style: italic;
+    border-radius: 27px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+button:hover {
+    background-color: #a83f3f;
+    color: white;
+}
+
+h2 {
+    font-size: 33px;
+    margin-top: 10px;
+}
+
+#results {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    display: none;
+}
