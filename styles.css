@@ -7,7 +7,7 @@
 }
 
 main {
-    margin: auto;
+    margin: 16vh auto auto auto;
     text-align: center;
     width: fit-content;
 }
